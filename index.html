@@ -6,74 +6,88 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.image-txt-container {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: center;
+				gap: 3rem;
+				padding: 2rem;
+			}
+			.image-txt-container img {
+				max-width: 320px;
+				height: auto;
+				border-radius: 15px;
+				box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+			}
+			ul.profile-highlights li {
+				font-size: 1.05em;
+				margin-bottom: 0.8em;
+				line-height: 1.6;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
+		<div id="wrapper" class="fade-in">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Intro -->
-					<div id="intro">
-						<h1>
-						Nathan Douieb
-						</h1>
-						<p><b><font size=5px>Data scientist</font></b> within the Ministry of Employment, student in Industrial Engeenering and passionate about Data, Artificial Intelligence and Statistics </p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">About Me</a></li>
-							<li><a href="generic.html">CV</a></li>
-							<li><a href="elements.html">Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/nathan-douieb-5122a424b/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/Nathdo" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-						<div class="image-txt-container">
-							<img src="images/me.jpeg" width="420" height="480">
-							<article class="post featured">
-
-								<center>
-								<h2>
-									Hi there 👋
-								</h2>
-								<h3>I am a Student Data Scientist who:</h3>
-								<ul>
-									<li>🔥 Loves data and solving complex problems.</li>
-									<li>🤖 Is passionate about Machine Learning, Deep Learning, and the power of AI to transform industries.</li>
-									<li>👨🏻‍💻 Can spend hours coding in Python and SQL, bringing ideas to life.</li>
-									<li>🎓 Is studying Industrial Engineering with a Specialization in Data Science.</li>
-									<li>🌟 Believes in continuous learning and staying updated with the latest trends in data science and technology.</li>
-									<li>⚽ Is a big football fan.</li>
-								</ul>
-							</article>
-						  </div>
-					</div>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li> Nathan Douieb</li><li> <a href="#"></a></li></ul>
-					</div>
-
+			<!-- Intro -->
+			<div id="intro">
+				<h1>Nathan Douieb</h1>
+				<p><strong style="font-size: 1.3em;">Data Scientist</strong> at the Ministry of Employment — passionate about Data, AI and meaningful solutions.<br>
+				Currently completing a degree in Industrial Engineering with a focus on Data Science.</p>
+				<ul class="actions">
+					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Explore</a></li>
+				</ul>
 			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li class="active"><a href="index.html">About Me</a></li>
+					<li><a href="generic.html">CV</a></li>
+					<li><a href="elements.html">Projects</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/nathan-douieb-5122a424b/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/Nathdo" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+				<div class="image-txt-container">
+					<img src="images/me.jpeg" alt="Nathan Douieb">
+					<article class="post featured">
+						<h2>Hi there 👋</h2>
+						<p style="font-size: 1.05em;">I’m a curious and driven Data Scientist who loves building intelligent systems that solve real-world problems. I thrive in projects that mix creativity and analytics — from deploying machine learning pipelines to building full-stack tools.</p>
+						<ul class="profile-highlights">
+							<li>⚙️ Skilled in Python, SQL, and deployment of ML models</li>
+							<li>🤖 Passionate about Machine Learning, Deep Learning & AI applications</li>
+							<li>🎯 Always seeking to make data actionable and user-friendly</li>
+							<li>🎓 Studying Industrial Engineering with a Data Science specialization</li>
+							<li>🚀 Committed to continuous learning and impactful innovation</li>
+							<li>⚽ A big football enthusiast and team player on and off the field</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul><li> Nathan Douieb</li></ul>
+			</div>
+
+		</div>
+
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
